@@ -1,0 +1,329 @@
+a {
+  text-decoration: none;
+}
+
+.blog-container{
+  padding: 0px 50px;
+}
+
+.blog-wrapper {
+  background-color:#232323;
+  box-shadow: 0px 8px 5px #888988;
+}
+
+.blog-heading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  padding-top: 30px;
+  color: #f5f5f5;
+  font-family: 'Courier New';
+}
+
+.line {
+  border-top: 3px solid #ffd700;
+  margin: 0px 600px;
+  border-radius: 1px;
+}
+
+.blog-parts {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba (196, 196, 196, 0,2);
+  color: #f5f5f5;
+  padding-bottom: 60px;
+  margin-top: 50px;
+}
+
+.part {
+  flex: auto;
+  width: 15%;
+  text-align: center;
+  background-color: rgba (220, 220, 220 0.5);
+  transition: all 7s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.blog-icon img {
+  background-color: #f5f5f5;
+  border-radius: 40px;
+  padding: 7px;
+  opacity: 0.8;
+}
+
+.blog-icon h3 {
+  font-size: 18px;
+  font-family: Geneva;
+}
+
+.blog-txt {
+  font-size: 14px;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+  font-family: 'lucida sans';
+  text-align: justify;
+}
+
+.readmore {
+  color: #ffd700;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.row {
+  margin-left: 5px;
+}
+
+.readmore:hover {
+  opacity: 1 ;
+}
+
+.team-wrapper {
+
+}
+
+.team-container {
+  width: 100%;
+  background-color: #f5f5f5;
+  }
+
+.team-heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'courier new';
+  padding-top: 20px;
+  color: #424242;
+  margin-bottom: 50px;
+}
+
+span{
+  color: #ffd700;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 300px;
+  color: #424242;
+  border-bottom: 2px solid #ffd700;
+  margin-bottom: 20px;
+  font-family: 'Lucida sans';
+}
+
+.member {
+  flex: auto;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.member:hover {
+  box-shadow: 5px 5px #c4c4c4;
+  opacity: 1;
+}
+
+.member img {
+ width: 150px;
+ margin-botom: 3px;
+}
+
+.top-container {
+  max-width: 1170px;
+  height: 410px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url("https://interiordesignersandceilingfans.eu/files/resized/53705/cropped/1170;410;af187dc158e157b39714090af91aea169dfdbe9d.jpg");
+  text-align: center;
+  color: #f5f5f5;
+  transition: all 4s;
+}
+
+.opening {
+  padding: 100px 0px;
+  background-color: #232323;
+  opacity: 0.7;
+}
+
+.opening h1 {
+  font-family: 'franklin gothic medium';
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.opening p {
+  margin-bottom: 75px;
+}
+.learnmore {
+  font-family: serif;
+  color: #ffd700;
+  font-height: bold;
+}
+
+.opening a:hover {
+  color:#f5f5f5;
+  border: 2px solid #ffd700;
+  padding: 10px;
+}
+
+.projects-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.projects-wrapper {
+  background-color: #f5f5f5;
+
+}
+
+.projects-heading h2 {
+  float: left;
+  font-family: 'Franklin gothic medium';
+  font-size: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #ffd700;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.view {
+  float: right;
+  margin-top: 25px;
+  color: #232323;
+  padding: 10px;
+  font-family: 'lucida sans';
+  font-size: 14px;
+  font-weight: bold;
+  border: 3px solid #c4c4c4;
+  border-radius: 3px;
+}
+
+.view:hover {
+  background-color:#232323;
+  color: #ffd700;
+  border: none;
+  cursor: pointer;
+}
+
+.project {
+  padding-top: 90px;
+  margin-left: 0px;
+  text-align: center;
+  padding-bottom:30px;
+  border-bottom: 3px solid #424242;
+  
+}
+
+.project img {
+  width: 22%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  box-shadow:  3px 8px 5px #c4c4c4;
+  opacity: 0.9;
+}
+
+.project img:hover {
+  opacity: 1;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.footer-container{
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  color:#f5f5f5;
+}
+
+footer {
+  background-color: #232323;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo h2{
+  font-family: 'franklin gothic medium';
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.footer-logo p {
+  font-size: 12px;
+  font-family: cambria;
+}
+
+.footer-list {
+  margin-left: 1040px;
+  margin-top: -70px;
+  padding-bottom: 10px;
+  font-family: 'lucida sans';
+}
+
+.contact {
+  font-weight: bold;
+}
+
+.about-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.about-wrapper {
+  background-color: #f5f5f5;
+}
+
+.about-head h2 {
+  font-family: 'franklin gothic medium';
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  margin-right: 880px;
+  border-bottom: 3px solid #ffd700;
+}
+
+.about-point {
+  display: flex;
+  padding-bottom: 30px;
+
+}
+
+.about-txt {
+  width: 50%;
+  font-size: 14px;
+  font-family: 'lucida sans';
+  color: #232323;
+  padding-right: 100px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 60px;
+}
+
+.about-pict {
+  width: 50%;
+  padding-left: 70px;
+  margin-top: 0px;
+  box-shadow: 5px 7px 7px #c4c4c4;
+  opacity: 0.9;
+}
+
+.about-pict:hover {
+  box-shadow: none;
+  opacity: 1;
+  cursor: pointer;
+}
